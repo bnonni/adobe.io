@@ -12,7 +12,7 @@ openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout private.key 
 
 #### Step 2. Create an integration in the adobe admin console and upload the "certificate_pub.crt" in the "public keys certificates" section
 
-![Adobe I/O Console Integration section](auth_jwtqs_03.png)
+<!-- ![Adobe I/O Console Integration section](auth_jwtqs_03.png) -->
 
 #### Step 3. Navigate to the JWT tab and paste the entirety of the private.key file in the field at the bottom and click "Generate JWT."
 
@@ -49,9 +49,9 @@ exexexexexexexexexexexe=
 
 #### Step 4. Copy the CURL command that is generated, and run it in the terminal (see JWT-Post.curl)
 
-##### Client ID and Client Secret can be found here
+<!-- ##### Client ID and Client Secret can be found here -->
 
-![Adobe I/O Client Credential Example](auth_jwtqs_04.png)
+<!-- ![Adobe I/O Client Credential Example](auth_jwtqs_04.png) -->
 
 ##### JWT Token should be included when the curl command is generated
 
