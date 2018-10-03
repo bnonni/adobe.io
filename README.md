@@ -1,4 +1,4 @@
-# Adobe Target API: How To Generate a JWT File and Make an API Call Using CURL
+# Adobe Target API: How To Make an API Call Using CURL
 
 ## [Adobe Online Instructions](https://www.adobe.io/authentication/auth-methods.html#!adobeio/adobeio-documentation/master/auth/JWTAuthenticationQuickStart.md)
 
