@@ -1,12 +1,14 @@
-# [Adobe Online Instructions](https://www.adobe.io/authentication/auth-methods.html#!adobeio/adobeio-documentation/master/auth/JWTAuthenticationQuickStart.md)
+# Adobe Target API: How To Generate a JWT File and Make an API Call Using CURL
 
-## Step-by-Step Instructions
+## [Adobe Online Instructions](https://www.adobe.io/authentication/auth-methods.html#!adobeio/adobeio-documentation/master/auth/JWTAuthenticationQuickStart.md)
 
-### Step 1. Generate "certificate_pub.crt" & "private.key" using the following terminal command
+### Step-by-Step Instructions
+
+#### Step 1. Generate "certificate_pub.crt" & "private.key" using the following terminal command
 
        ```openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout private.key -out certificate_pub.crt```
 
-### Step 2. Once an integration is created in the adobe admin console, upload the "certificate_pub.crt" in the "public keys certificates" section
+#### Step 2. Once an integration is created in the adobe admin console, upload the "certificate_pub.crt" in the "public keys certificates" section
 
 ### Step 3. Navigate to the JWT tab and paste the entirety of the private.key file in the field at the bottom and click "Generate JWT."
 
