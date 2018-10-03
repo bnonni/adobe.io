@@ -1,0 +1,6 @@
+curl -X POST
+-H "Cache-Control: no-cache"
+-H "Content-Type: multipart/form-data"
+-F "client_id=<Your Client ID>"
+-F "client_secret=<Your Client Secret>"
+-F "jwt_token=<Your JWT Token>" "https://ims-na1.adobelogin.com/ims/exchange/jwt/"

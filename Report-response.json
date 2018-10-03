@@ -1,14 +1,14 @@
 {
     "reportParameters": {
-        "activityId": 244637,
-        "environmentId": 11023,
+        "activityId": 132556,
+        "environmentId": 11224,
         "conversionMetricLocalIds": [
-            32767
+            11221
         ],
         "reportInterval": "2018-09-27T20:00Z/2018-10-03T16:00Z"
     },
     "activity": {
-        "id": 244637,
+        "id": 132556,
         "thirdPartyId": "64947acb-e354-41bc-9f34-f2fcd8beaf5c",
         "type": "ab",
         "state": "approved",
