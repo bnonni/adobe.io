@@ -6,7 +6,7 @@
 
 #### Step 1. Generate "certificate_pub.crt" & "private.key" using the following terminal command
 
-       ```
+       ```bash
        openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout private.key -out certificate_pub.crt
        ```
 
