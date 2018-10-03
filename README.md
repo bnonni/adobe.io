@@ -64,7 +64,7 @@ curl -X POST
 -F "jwt_token=<Your JWT Token>" "https://ims-na1.adobelogin.com/ims/exchange/jwt/"
 ```
 
-#### Step 5. Take the "Bearer token" from the response (see bearer access-token.json) and input into 'authorization: ' field in report-api-call.curl
+#### Step 5. Take the "Bearer token" from the response {see [bearer-access-token.json](bearer-access-token.json)} and input into 'authorization: ' field in report-api-call.curl
 
 #### Step 6. Paste the API Key (Client ID) from the Overview tab of the adobe.io integration console into the 'x-api-key: ' filed in report-api-call.curl
 
